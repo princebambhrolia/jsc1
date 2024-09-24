@@ -1,0 +1,40 @@
+<script>
+    function add(x, y) {
+      return x + y;
+    }
+    function mul(x, y) {
+      return x - y;
+    }
+    function sub(x, y) {
+      return x * y;
+    }
+    function div(x, y) {
+      return x / y;
+    }
+    function mod(x, y) {
+      return x % y;
+    }
+  
+    var s = parseFloat(
+      prompt("1.addition 2.multiplication 3.subtraction 4.division 5.modulo")
+    );
+  
+    if (s <= 5) {
+      var x = parseFloat(prompt("enter any number 1st"));
+      var y = parseFloat(prompt("enter any number 2nd"));
+  
+      if (s == 1) {
+        console.log(add(x, y));
+      } else if (s == 2) {
+        console.log(mul(x, y));
+      } else if (s == 3) {
+        console.log(sub(x, y));
+      } else if (s == 4) {
+        console.log(div(x, y));
+      } else if (s == 5) {
+        console.log(mod(x, y));
+      }
+    } else {
+      console.log("this number is not valid");
+    }
+  </script>
