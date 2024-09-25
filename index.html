@@ -1,18 +1,18 @@
 <script>
-    function add(x, y) {
-      return x + y;
+    function add(a, b) {
+      return a + b;
     }
-    function mul(x, y) {
-      return x - y;
+    function mul(a, b) {
+      return a - b;
     }
-    function sub(x, y) {
-      return x * y;
+    function sub(a, b) {
+      return a * b;
     }
-    function div(x, y) {
-      return x / y;
+    function div(a, b) {
+      return a / b;
     }
-    function mod(x, y) {
-      return x % y;
+    function mod(a, b) {
+      return a % b;
     }
   
     var s = parseFloat(
@@ -24,15 +24,15 @@
       var y = parseFloat(prompt("enter any number 2nd"));
   
       if (s == 1) {
-        console.log(add(x, y));
+        console.log(add(a, b));
       } else if (s == 2) {
-        console.log(mul(x, y));
+        console.log(mul(a, b));
       } else if (s == 3) {
-        console.log(sub(x, y));
+        console.log(sub(a, b));
       } else if (s == 4) {
-        console.log(div(x, y));
+        console.log(div(a, b));
       } else if (s == 5) {
-        console.log(mod(x, y));
+        console.log(mod(a, b));
       }
     } else {
       console.log("this number is not valid");
